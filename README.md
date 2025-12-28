@@ -14,9 +14,7 @@ Tools Used: Python Flask, PyCryptodome, GitHub, Render
 
 Built a secure file upload/download web portal using Flask with AES-256 encryption. Files uploaded are encrypted before storage and decrypted on-demand when downloaded. The application was deployed on Render.
 
----
-
-### Deliverables
+Deliverables
 
 - app.py – Flask backend  
 - crypto_utils.py – AES encryption logic  
@@ -29,18 +27,10 @@ Built a secure file upload/download web portal using Flask with AES-256 encrypti
 
 ---
 
-### How to Run
-
-```bash
-# Clone the repository
-git clone https://github.com/sachinsree47/FUTURE_CS_03.git
-cd FUTURE_CS_03
-
-# Install dependencies
-pip install -r requirements.txt
 
 # Set the AES key (32 bytes for AES-256)
 export AES_SECRET_KEY='MyUltraSecretAES256KeyForTesting'
 
 # Run the app
 python app.py
+
